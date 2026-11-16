@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "repository": "hyperme-sh/hypermesh-orchestrator",
+  "repository": "hyperme-sh/orchestrator",
   "component": "hypermesh-orchestrator",
   "line": "0.1",
   "version_files": [
