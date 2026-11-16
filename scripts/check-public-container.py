@@ -1,6 +1,5 @@
 """Verify GHCR access using only an anonymously issued pull token."""
 import json
-import os
 import urllib.parse
 import urllib.request
 
@@ -20,4 +19,4 @@ def check(repository):
 
 
 if __name__ == '__main__':
-    check(os.environ['GITHUB_REPOSITORY'])
+    check("hyperme-sh/hypermesh-orchestrator")
