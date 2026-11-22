@@ -1,3 +1,5 @@
+# Qualify the wheel and a disposable CLI image in the job. Nothing downloads a
+# package Actions archive here; ghcr.io holds the durable runtime copy on main.
 name: Standalone package
 on:
   pull_request:
